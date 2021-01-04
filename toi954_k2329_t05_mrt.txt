@@ -1,0 +1,83 @@
+Title: TOI-954 b and K2-329 b: Short-Period Saturn-Mass Planets 
+       that Test whether Irradiation Leads to Inflation  
+Authors: Sha L., Huang C.X., Shporer A., Rodriguez J.E., Vanderburg A., 
+    Brahm R., Hagelberg J., Matthews E.C., Ziegler C., Livingston J.H., 
+    Stassun K.G., Wright D.J., Crane J.D., Espinoza N., Bouchy F., 
+    Bakos G., Collins K.A., Zhou G., Bieryla A., Hartman J.D., Wittenmyer R.A.,
+    Nielsen L.D., Plavchan P., Bayliss D., Sarkis P., Tan T.-G., Cloutier R., 
+    Mancini L., Jordan A., Wang S., Henning T., Narita N., Penev K., Teske J.K.,
+    Kane S.R., Mann A.W., Addison B.C., Tamura M., Horner J., Barbieri M., 
+    Burt J.A., Diaz M.R., Crossfield I.J.M., Dragomir D., Drass H., 
+    Feinstein A.D., Zhang H., Hart R., Kielkopf J.F., Jensen E.L.N., 
+    Montet B.T., Ottoni G., Schwarz R.P., Rojas F., Lopez Fdez Nespral D., 
+    Torres P., Mengel M.W., Udry S., Zapata A., Snoddy E., Okumura J., 
+    Ricker G.R., Vanderspek R.K., Latham D.W., Winn J.N., Seager S., 
+    Jenkins J.M., Colon K.D., Henze C.E., Krishnamurthy A., Ting E.B., 
+    Vezie M., Villanueva S.
+Table: Precise Radial Velocity Measurements of TOI-954
+================================================================================
+Byte-by-byte Description of file: toi954_k2329_t05_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label  Explanations
+--------------------------------------------------------------------------------
+   1- 16 F16.8  d       BJD    Barycentric Julian Date of observation (1)
+  18- 28 F11.5  m/s     RV     Absolute relative motion (2)
+  30- 37 F8.5   m/s   e_RV     Uncertainty in RV
+  39- 55 A17    ---     Tel    Telescope/Instrument
+--------------------------------------------------------------------------------
+Note (1): The MINERVA-Australis measurement at BJD TDB 2,458,798.2173 is
+    excluded from the global model because it is a > 4{sigma} outlier.
+Note (2): The radial velocities given represent absolute relative motion to
+    the solar system barycenter, except for those from MINERVA-Australis and
+    PFS, where the mean relative motion has been subtracted. See Table 4 for
+    the constant radial velocity offsets derived by the global model for
+    each instrument.
+--------------------------------------------------------------------------------
+2458536.59568    -8812.91816  8.13894 CHIRON            
+2458538.60658    -8839.10797 17.70062 CHIRON            
+2458539.60827    -8800.58690 14.49605 CHIRON            
+2458540.59466    -8818.69516 18.01763 CHIRON            
+2458541.57702    -8844.42831 13.41980 CHIRON            
+2458714.906319   -7347.17     8.83    CORALIE           
+2458716.832690   -7329.20     9.01    CORALIE           
+2458718.846938   -7369.61     8.71    CORALIE           
+2458727.837791   -7325.22     8.84    CORALIE           
+2458729.867972   -7373.46     9.72    CORALIE           
+2458730.875885   -7334.57    11.22    CORALIE           
+2458739.756150   -7360.71    11.34    CORALIE           
+2458740.811585   -7361.33    10.84    CORALIE           
+2458741.835606   -7339.48    10.79    CORALIE           
+2458744.829962   -7349.56    11.96    CORALIE           
+2458745.737422   -7321.07    35.27    CORALIE           
+2458746.749066   -7325.21    14.84    CORALIE           
+2458747.815505   -7383.09    12.90    CORALIE           
+2458751.740085   -7355.34    15.11    CORALIE           
+2458752.761760   -7361.95     9.22    CORALIE           
+2458753.728396   -7302.87    17.82    CORALIE           
+2458754.766691   -7365.72    10.48    CORALIE           
+2458755.885741   -7363.77     9.77    CORALIE           
+2458756.781573   -7332.19    12.27    CORALIE           
+2458753.799037   -7303.56     3.63    HARPS             
+2458754.756737   -7324.01     2.46    HARPS             
+2458755.813724   -7340.08     1.49    HARPS             
+2458756.749928   -7310.85     2.72    HARPS             
+2458735.11924305    32.749    5.2134  MINERVA-Australis 
+2458737.17597222    -3.6402   4.8895  MINERVA-Australis 
+2458741.08650462    20.146    9.9089  MINERVA-Australis 
+2458742.09328703    34.614   13.336   MINERVA-Australis 
+2458743.08164351    27.424   10.512   MINERVA-Australis 
+2458758.09859953     1.6529   9.5847  MINERVA-Australis 
+2458776.07408564    35.803    8.5726  MINERVA-Australis 
+2458777.15123842     7.3249   4.8943  MINERVA-Australis 
+2458795.08677083    -7.3261   5.2078  MINERVA-Australis 
+2458796.16503472   -25.319    4.4132  MINERVA-Australis 
+2458797.08497685   -12.976    4.3832  MINERVA-Australis 
+2458798.21734953   -38.352    4.4889  MINERVA-Australis 
+2458675.92609        8.36     1.44    PFS               
+2458679.92171       10.10     1.17    PFS               
+2458682.90503       -8.29     1.08    PFS               
+2458683.94257        6.87     1.37    PFS               
+2458684.94079      -32.33     0.90    PFS               
+2458737.88787      -18.21     1.34    PFS               
+2458738.83838        0.00     1.27    PFS               
+2458741.83181      -14.90     1.13    PFS               
